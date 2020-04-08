@@ -13,7 +13,7 @@ Pod::Spec.new do |spec|
   spec.author             = { "Zafer Sevik" => "zafer.sevik@productmadness.com" }
 #  spec.source       = { :git => "http://EXAMPLE/ZSFramework.git", :tag => "#{spec.version}" }
    # spec.source = { :path => '.'}
-  spec.source = { :http => "https://github.com/zafersevik-productmadness/ZSFramework/blob/master/framework.zip"}
+  spec.source = { :git => "git@github.com:zafersevik-productmadness/ZSFramework.git"}
 
   # spec.ios.vendored_frameworks = "ZSFramework.framework"
   spec.vendored_frameworks = "**/ZSFramework.framework"
